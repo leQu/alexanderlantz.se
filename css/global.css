@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+}
+
+#main {
+    padding: 70px 0 200px 0;
+    width: 950px;
+    height: 2000px;
+    background-color: white;
+    position: inherit;
+    margin: 0 auto;
+}
+
+#main > a {
+    float: right;
+    position: relative;
+    z-index: 2;
+    margin-right: 160px;
+    margin-top: 20px;
+}
+
+#my_name, #my_prof{
+    margin: 0px;
+    z-index: 3;
+}
+.page-header{
+    margin: 110px 0 10px;
+    width: 600px;
+}
+
+#navbar-main{
+    width: 450px;
+    margin: 0 auto;
+    float: left;
+}
+
+@media (max-width: 690px){
+    #profile_pic{
+        display: none;   
+    }
+}
+
+.container{
+    width: 600px;
+    margin: 0 auto;
+    padding: 0 20px 0 20px; 
+}
