@@ -1,21 +1,22 @@
 body {
-    background-color: black;
+    background-color: cadetblue;
 }
 
 #main {
     padding: 70px 0 200px 0;
-    width: 950px;
+    width: 850px;
     height: 2000px;
-    background-color: white;
+    background-color: whitesmoke;
     position: inherit;
     margin: 0 auto;
+    margin-top: 20px;
 }
 
 #main > a {
     float: right;
     position: relative;
     z-index: 2;
-    margin-right: 160px;
+    margin-right: 140px;
     margin-top: 20px;
 }
 
@@ -26,12 +27,6 @@ body {
 .page-header{
     margin: 110px 0 10px;
     width: 600px;
-}
-
-#navbar-main{
-    width: 450px;
-    margin: 0 auto;
-    float: left;
 }
 
 @media (max-width: 690px){
